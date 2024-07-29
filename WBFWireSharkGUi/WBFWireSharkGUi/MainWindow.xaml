@@ -1,0 +1,33 @@
+﻿<Window x:Class="WBFWireSharkGUi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WBFWireSharkGUi"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="753" Width="1289">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <!-- This column will contain the left Grid -->
+            <ColumnDefinition Width="Auto"/>
+            <!-- This column will contain the StackPanel -->
+        </Grid.ColumnDefinitions>
+
+        <!-- Left Grid -->
+        <Grid Grid.Column="0" Margin="0,0,10,0">
+            <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <ComboBox x:Name="DeviceComboBox" Width="200" Height="30" Margin="0,0,0,20"/>
+                <Button Content="Start Capture" Click="StartCapture_Click" />
+                <TextBox x:Name="PacketInfoTextBox" Height="200" Width="400" IsReadOnly="True" />
+
+                <Button Content="Stop Capture" Click="StopCapture_Click" />
+
+            </StackPanel>
+        </Grid>
+        <Grid x:Name="MainGrid">
+            <!-- Your existing content goes here -->
+        </Grid>
+
+    </Grid>
+</Window>

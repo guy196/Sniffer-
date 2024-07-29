@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "EmdeKtKDKsQPA86zrVWXGJveDn1t2qdcH71IUe5sj1Mzty8YBnN8GINQkgugNOxxGrXNcc06BlhXPia93paxCA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\guysh\\OneDrive\\שולחן העבודה\\Cyber\\Projects\\WBFWireSharkGUi\\WBFWireSharkGUi\\WBFWireSharkGUi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\guysh\\.nuget\\packages\\packetdotnet\\1.4.6\\packetdotnet.1.4.6.nupkg.sha512",
+    "C:\\Users\\guysh\\.nuget\\packages\\sharppcap\\6.2.5\\sharppcap.6.2.5.nupkg.sha512",
+    "C:\\Users\\guysh\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\guysh\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\guysh\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
